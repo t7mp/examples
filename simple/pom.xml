@@ -1,0 +1,106 @@
+<?xml version="1.0"?>
+<project
+   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd"
+   xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <modelVersion>4.0.0</modelVersion>
+   <parent>
+      <artifactId>t7mp-examples</artifactId>
+      <groupId>org.t7mp.examples</groupId>
+      <version>0.9.8-SNAPSHOT</version>
+   </parent>
+
+   <groupId>org.t7mp.examples</groupId>
+   <artifactId>simple</artifactId>
+   <version>0.9.8-SNAPSHOT</version>
+
+   <packaging>war</packaging>
+
+   <name>simple Maven Webapp</name>
+   <url>http://maven.apache.org</url>
+
+   <dependencies>
+      <dependency>
+         <groupId>junit</groupId>
+         <artifactId>junit</artifactId>
+         <version>3.8.1</version>
+         <scope>test</scope>
+      </dependency>
+   </dependencies>
+
+   <build>
+      <finalName>simple</finalName>
+
+      <plugins>
+         <plugin>
+            <groupId>com.googlecode.t7mp</groupId>
+            <artifactId>maven-t7-plugin</artifactId>
+            <version>${project.version}</version>
+            <configuration>
+               
+               <scanners>
+                  <scannerConfiguration>
+                     <interval>20</interval>
+                  </scannerConfiguration>
+               </scanners>
+               
+ 
+               <systemProperties>
+                  <systemProperty>
+                     <key>XXXXX</key>
+                     <value>${basedir}</value>
+                  </systemProperty>
+               </systemProperties>
+               <!-- 
+               <libs>
+                  <jarArtifact>
+                     <groupId>mysql</groupId>
+                     <artifactId>mysql-connector-java</artifactId>
+                     <version>5.1.13</version>
+                  </jarArtifact>
+                  <jarArtifact>
+                     <groupId>commons-logging</groupId>
+                     <artifactId>commons-logging</artifactId>
+                     <version>1.1.1</version>
+                  </jarArtifact>
+                  <jarArtifact>
+                     <groupId>org.apache.geronimo.specs</groupId>
+                     <artifactId>geronimo-jms_1.1_spec</artifactId>
+                     <version>1.1.1</version>
+                  </jarArtifact>
+                  <jarArtifact>
+                     <groupId>org.apache.geronimo.specs</groupId>
+                     <artifactId>geronimo-j2ee-management_1.1_spec</artifactId>
+                     <version>1.0.1</version>
+                  </jarArtifact>
+                  <jarArtifact>
+                     <groupId>org.apache.geronimo.specs</groupId>
+                     <artifactId>geronimo-jta_1.1_spec</artifactId>
+                     <version>1.1.1</version>
+                  </jarArtifact>
+                  <jarArtifact>
+                     <groupId>org.apache.activemq</groupId>
+                     <artifactId>activemq-core</artifactId>
+                     <version>5.4.0</version>
+                  </jarArtifact>
+               </libs>
+                -->
+               <webapps>
+                  <webappArtifact>
+                     <groupId>org.jasig.cas</groupId>
+                     <artifactId>cas-server-webapp</artifactId>
+                     <version>3.4.2</version>
+                     <contextPath>cas</contextPath>
+                  </webappArtifact>
+                  <webappArtifact>
+                     <groupId>org.apache.struts</groupId>
+                     <artifactId>struts2-mailreader</artifactId>
+                     <version>2.1.8</version>
+                     <contextPath>mailreader</contextPath>
+                  </webappArtifact>
+               </webapps>
+            </configuration>
+         </plugin>
+      </plugins>
+   </build>
+
+</project>
