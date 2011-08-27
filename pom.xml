@@ -1,0 +1,69 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+   <modelVersion>4.0.0</modelVersion>
+   <parent>
+      <groupId>org.sonatype.oss</groupId>
+      <artifactId>oss-parent</artifactId>
+      <version>4</version>
+   </parent>
+
+   <groupId>org.t7mp.examples</groupId>
+   <artifactId>t7mp-examples</artifactId>
+
+   <version>0.9.8-SNAPSHOT</version>
+
+   <packaging>pom</packaging>
+
+   <licenses>
+      <license>
+         <name>The Apache Software License, Version 2.0</name>
+         <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+         <distribution>repo</distribution>
+      </license>
+   </licenses>
+
+   <scm>
+      <url>https://github.com/t7mp/examples</url>
+      <connection>scm:git:git@github.com:t7mp/examples.git</connection>
+      <developerConnection>scm:git:git@github.com:t7mp/examples.git</developerConnection>
+   </scm>
+
+   <issueManagement>
+      <system>GitHub Issue Tracking</system>
+      <url>https://github.com/t7mp/t7mp/issues</url>
+   </issueManagement>
+
+   <developers>
+      <developer>
+         <id>marco.buss</id>
+         <name>Marco Buss</name>
+         <roles>
+            <role>Developer</role>
+         </roles>
+         <timezone>+1</timezone>
+         <organization>Marco Buss</organization>
+      </developer>
+   </developers>
+
+   <prerequisites>
+      <maven>2.2</maven>
+   </prerequisites>
+
+   <build>
+      <plugins>
+         <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-compiler-plugin</artifactId>
+            <version>2.3.2</version>
+            <configuration>
+               <encoding>UTF-8</encoding>
+               <source>1.6</source>
+               <target>1.6</target>
+            </configuration>
+         </plugin>
+      </plugins>
+   </build>
+   <modules>
+   	<module>simple</module>
+   </modules>
+</project>
