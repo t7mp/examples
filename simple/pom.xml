@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<project
+   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd"
+   xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <modelVersion>4.0.0</modelVersion>
+   <parent>
+      <artifactId>t7mp-examples</artifactId>
+      <groupId>org.t7mp.examples</groupId>
+      <version>0.9.8-SNAPSHOT</version>
+   </parent>
+
+   <groupId>org.t7mp.examples</groupId>
+   <artifactId>simple</artifactId>
+   <version>0.9.8-SNAPSHOT</version>
+
+   <packaging>war</packaging>
+
+   <name>simple Example for t7mp Usage</name>
+   <url>http://t7mp.github.com/</url>
+
+
+   <build>
+      <finalName>simple</finalName>
+
+      <plugins>
+         <plugin>
+            <groupId>com.googlecode.t7mp</groupId>
+            <artifactId>maven-t7-plugin</artifactId>
+            <version>${project.version}</version>
+            <configuration>
+            
+            <!-- temporary disabled until bug is fixed -->
+            <!--   
+               <scanners>
+                  <scannerConfiguration>
+                     <interval>20</interval>
+                  </scannerConfiguration>
+               </scanners>
+             -->   
+            </configuration>
+         </plugin>
+      </plugins>
+   </build>
+
+</project>
