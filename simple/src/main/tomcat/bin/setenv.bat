@@ -1,0 +1,1 @@
+set CATALINA_OPTS=-server -Dfile.encoding=UTF-8 -Djava.awt.headless=true -Xms1024m -Xmx1536m -XX:PermSize=256m -XX:MaxPermSize=512m -XX:+CMSClassUnloadingEnabled -Dcom.sun.management.jmxremote.port=7979 -Dcom.sun.management.jmxremote.ssl=false -Dcom.sun.management.jmxremote.authenticate=false -Dorg.apache.catalina.loader.WebappClassLoader.ENABLE_CLEAR_REFERENCES=false
