@@ -26,14 +26,15 @@
             <groupId>com.googlecode.t7mp</groupId>
             <artifactId>maven-t7-plugin</artifactId>
             <version>0.9.8.M2</version>
-            <!-- temporary disabled until bug is fixed -->
-            <!--
-               <scanners>
-                  <scannerConfiguration>
-                     <interval>20</interval>
-                  </scannerConfiguration>
-               </scanners>
-             -->
+				<!-- 
+				<configuration>
+					<tomcatVersion>7.0.14</tomcatVersion>
+					<scanners>
+						<scannerConfiguration>
+							<interval>10</interval>
+						</scannerConfiguration>
+					</scanners>
+				</configuration> -->
          </plugin>
       </plugins>
    </build>
