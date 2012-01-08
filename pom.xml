@@ -66,5 +66,6 @@
    <modules>
    	<module>simple</module>
    	<module>external-libs</module>
+    <module>tomee</module>
    </modules>
 </project>
