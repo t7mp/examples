@@ -68,4 +68,11 @@
    	<module>external-libs</module>
     <module>tomee</module>
    </modules>
+   
+   <pluginRepositories>
+   	<pluginRepository>
+		  <id>sonatype.oss.snapshots</id>
+		  <url>https://oss.sonatype.org/content/repositories/snapshots</url>
+		</pluginRepository>
+    </pluginRepositories>
 </project>
