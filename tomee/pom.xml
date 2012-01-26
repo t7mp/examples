@@ -24,12 +24,9 @@
     <plugins>
       <plugin>
         <groupId>com.googlecode.t7mp</groupId>
-        <artifactId>maven-t7-plugin</artifactId>
+        <artifactId>maven-tomee-plugin</artifactId>
         <version>0.9.10-SNAPSHOT</version>
         <configuration>
-          <tomcatVersion>1.0.0-beta-1</tomcatVersion>
-          <lookInside>true</lookInside>
-          <downloadTomcatExamples>true</downloadTomcatExamples>
           <libs>
             <jarArtifact>
               <groupId>javax.ejb</groupId>
