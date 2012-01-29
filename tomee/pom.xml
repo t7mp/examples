@@ -10,16 +10,16 @@
    </parent>
 
    <groupId>org.t7mp.examples</groupId>
-   <artifactId>simple</artifactId>
+   <artifactId>tomee</artifactId>
 
    <packaging>war</packaging>
 
-   <name>simple Example for t7mp Usage</name>
+   <name>Examples - Using t7 with TomEE</name>
    <url>http://t7mp.github.com/</url>
 
 
   <build>
-    <finalName>simple</finalName>
+    <finalName>tomee</finalName>
 
     <plugins>
       <plugin>
