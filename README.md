@@ -28,11 +28,10 @@ Run 'mvn clean install t7:run' and point your Browser to http://localhost:8080/e
 
 It should show you the version of DerbyDB used in this project.
 
+## provide-from-external ##
 
-## tomee ##
+Shows how to serve static client content, maybe an angular-js-app and a spring-mvc-backend in one project.
 
-Simple example how to run 'apache-tomee' with 'maven-t7-plugin'.
+## integration-testing ##
 
-In the 'tomee'-directory run 'mvn clean install t7:run-forked-tomee' and point your browser to http://localhost:8080/openejb/.
-
-It should show you the entry-site of 'openejb' where you can test the installation.
+Shows how to configure and use the plugin for integration-testing.
