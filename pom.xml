@@ -68,6 +68,7 @@
    <modules>
    	<module>simple</module>
    	<module>external-libs</module>
+	<module>integration-testing</module>
     <module>tomee</module>
     <module>configuration-inheritance</module>
    </modules>

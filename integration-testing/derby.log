@@ -1,0 +1,10 @@
+----------------------------------------------------------------
+Wed Oct 24 14:58:10 CEST 2012:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.8.2.2 - (1181258): instance a816c00e-013a-92d9-fb13-000012368190 
+on database directory /Users/jbellmann/dev/work/privat/t7mp/examples/integration-testing/MyDbTest  with class loader org.apache.catalina.loader.StandardClassLoader@6e25d936 
+Loaded from file:/Users/jbellmann/dev/work/privat/t7mp/examples/integration-testing/target/tomcat/lib/derby-10.8.2.2.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.7.0_07-b10
+user.dir=/Users/jbellmann/dev/work/privat/t7mp/examples/integration-testing
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
