@@ -67,6 +67,7 @@
    
    <modules>
    	<module>simple</module>
+	<module>provide-from-external</module>
    	<module>external-libs</module>
 	<module>integration-testing</module>
     <module>tomee</module>
