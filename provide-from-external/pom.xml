@@ -49,10 +49,14 @@
 				<artifactId>maven-t7-plugin</artifactId>
 				<version>0.9.10-SNAPSHOT</version>
 				<configuration>
+					<lookInside>true</lookInside>
 					<!-- setup the port to listen on -->
 					<tomcatHttpPort>9091</tomcatHttpPort>
 					<!-- this is very important for integration tests -->
 					<tomcatSetAwait>false</tomcatSetAwait>
+					<systemProperties>
+						<externalClientDirectory>${project.basedir}/client</externalClientDirectory>
+					</systemProperties>
 					<libs>
 						<jarArtifact>
 							<groupId>org.apache.derby </groupId>

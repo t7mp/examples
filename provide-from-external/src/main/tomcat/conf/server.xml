@@ -43,7 +43,7 @@
              resourceName="UserDatabase"/>
       <Host name="${tomcat.hostname}"  appBase="webapps"
           unpackWARs="true" autoDeploy="true">
-      <Context path="/client" docBase="${external.client.directory}" reloadable="false"/>
+      <Context path="/client" docBase="${externalClientDirectory}" reloadable="false"/>
       <!-- Access log processes all example.
            Documentation at: /docs/config/valve.html
            Note: The pattern used is equivalent to using pattern="common" -->

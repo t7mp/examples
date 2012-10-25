@@ -6,3 +6,4 @@ target/
 .DS_Store
 .redcar/
 MyDbTest
+derby.log
